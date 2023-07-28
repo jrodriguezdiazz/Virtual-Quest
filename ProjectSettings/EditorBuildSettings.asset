@@ -4,5 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: af9a7e511d1c746e18037f2d35aec327
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 48fae6a15ea3a49eab8826e7ac412586
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 685338f396b424144a03c4624058fc35, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f9fe96080d6eb4012a13f26437071893, type: 2}
